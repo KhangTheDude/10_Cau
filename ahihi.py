@@ -81,4 +81,85 @@ else:
     print("wrong")
     score = score - 1
 
-print("You have", score * 100000, "dollars over 1000000 dollars")
+a = str(input("Which company made Pizza Tower: A: Tour De Pizza B: Mc Pig C: Pizza Tower Guy D: Hard Games "))
+if a == "A":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("Who maDE Fur Elise: A: Hitler B: Mozart C: Beethoven D: Stalin"))
+if a == "C":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("ILL MAKE, __ __ : A: YOU GAY B: YOU SAY C: HIM GAY D: HIM SAY"))
+if a == "B":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("6 + 9:  A: 69 B: 96 C: -3 D: 15"))
+if a == "D":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("Who are you: A: yourself B: A bot C: A human D: A player "))
+if a == "A" or a == "C" or a == "D":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("What level in Pizza Tower revolves around being a cheese hybrid monster: A: Peppibot B: Oh Crap! C: Oh Shit! D: Holy Cow! "))
+if a == "C":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("Say an artist's name: A: Hitler B: Elise C: Jenny D: Spider-Man"))
+if a == "A":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("When was Roblox publically released: A: 1999 B: 2006 C: 2005 D: 2007"))
+if a == "B":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("A popular hacker in Among Us: A: No Visor B: 666 C: sire sorol D: Murr3y"))
+if a == "C":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+a = str(input("2+3: A: 5 B: 6 C: 7 D: 4"))
+if a == "A":
+    print("correct")
+    score = score + 1
+else:
+    print("wrong")
+    score = score - 1
+
+
+print("You have", score * 50000, "dollars over 1000000 dollars")
