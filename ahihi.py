@@ -1,6 +1,14 @@
 import random
 score = 0
 from random import randint
+def countdown(time):
+    while not time == 0:
+        time = time - 1
+        print(time)
+    if time == 0:
+        print("TIMES UP!")
+    while time == 0:
+        break
 a = str(input("When was Scratch made? A: 2003 B: 2002 C:2004 D: 1995 "))
 if a == "A":
     print("correct")
@@ -121,7 +129,7 @@ else:
     print("wrong")
     score = score - 1
 
-a = str(input("What level in Pizza Tower revolves around being a cheese hybrid monster: A: Peppibot Factory B: Oh Crap! C: Oh Shit! D: Holy Cow! "))
+a = str(input("What level in Pizza Tower revolves around being a cheese hybrid monster: A: Peppibot B: Oh Crap! C: Oh Shit! D: Holy Cow! "))
 if a == "C":
     print("correct")
     score = score + 1
