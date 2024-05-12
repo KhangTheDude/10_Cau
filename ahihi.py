@@ -89,7 +89,7 @@ else:
     print("wrong")
     score = score - 1
 
-a = str(input("Who maDE Fur Elise: A: Hitler B: Mozart C: Beethoven D: Stalin"))
+a = str(input("Who made Fur Elise: A: Hitler B: Mozart C: Beethoven D: Stalin"))
 if a == "C":
     print("correct")
     score = score + 1
@@ -121,7 +121,7 @@ else:
     print("wrong")
     score = score - 1
 
-a = str(input("What level in Pizza Tower revolves around being a cheese hybrid monster: A: Peppibot B: Oh Crap! C: Oh Shit! D: Holy Cow! "))
+a = str(input("What level in Pizza Tower revolves around being a cheese hybrid monster: A: Peppibot Factory B: Oh Crap! C: Oh Shit! D: Holy Cow! "))
 if a == "C":
     print("correct")
     score = score + 1
